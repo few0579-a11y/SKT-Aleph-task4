@@ -1,0 +1,28 @@
+T04 replay against actual app.py live_payload() and store_daily()
+All fixture storage is inside temporary directories; no real API calls.
+
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D2         stored=120 rows=2 status=fresh/none delta=15.0
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-TIMEOUT           stored=105 rows=1 status=stale/timeout delta=None
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-AUTH-401          stored=105 rows=1 status=stale/auth delta=None
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-RATE-429          stored=105 rows=1 status=stale/rate_limit delta=None
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-OFFLINE           stored=105 rows=1 status=stale/offline delta=None
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-SCHEMA-BREAK      stored=105 rows=1 status=stale/schema_error delta=None
+PASS  T04-NORMAL-D1-A       stored=100 rows=1 status=fresh/none delta=None
+PASS  T04-NORMAL-D1-B       stored=105 rows=1 status=fresh/none delta=None
+PASS  T04-TIMEOUT           stored=105 rows=1 status=stale/timeout delta=None
+PASS  T04-RECOVER-D2        stored=120 rows=2 status=fresh/none delta=15.0
+
+PASS: all fixture replay assertions
+Independent local replay only — official grader, day receipts, public deployment NOT verified.

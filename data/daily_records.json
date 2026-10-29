@@ -6,7 +6,9 @@
     "event_time": "2026/10/27 09:25:00",
     "source": "気象庁",
     "issued_time": "2026/10/27 09:29:12",
-    "fetched_at": "2026-10-27T12:36:13.898640+09:00"
+    "fetched_at": "2026-10-27T12:36:13.898640+09:00",
+    "source_url": "https://api.p2pquake.net/v2/jma/quake",
+    "unit": "M"
   },
   {
     "date": "2026-10-28",
@@ -27,15 +29,13 @@
     "location": "釧路地方中南部",
     "event_time": "2026/10/29 08:14:00",
     "issued_time": "2026/10/29 08:18:12",
-    "fetched_at": "2026-10-29T10:15:47.124048+09:00",
+    "fetched_at": "2026-10-29T09:32:13.258049+09:00",
     "source": "気象庁 / P2P地震情報",
     "source_url": "https://api.p2pquake.net/v2/jma/quake",
     "unit": "M",
     "latitude": 43.1,
     "longitude": 144.5,
     "depth": 120,
-    "max_intensity": 20,
-    "signal_id": "japan-seismic-monitor",
-    "record_id": "0e42fc8b-fd45-41f3-84d7-011450473eae"
+    "max_intensity": 20
   }
 ]
